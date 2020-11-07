@@ -47,6 +47,7 @@ usuarioSchema.methods.toJSON = function() {
 
     let user = this;
     let userObject = user.toObject();
+    //se quita la contraseña
     delete userObject.password;
 
     return userObject;
