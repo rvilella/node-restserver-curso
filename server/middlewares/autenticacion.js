@@ -5,7 +5,7 @@ let verificaToken = (req, res, next) => {
 
     let token = req.get('token');
 
-    //decoded = pageload
+    //decoded = payload
     jwt.verify(token, process.env.SEED, (err, decoded) => {
 
         if (err) {
