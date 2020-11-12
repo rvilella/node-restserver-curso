@@ -1,0 +1,1 @@
+Carpeta en donde se almacena recursos estáticos o información global como: estilos, imagenes, etc.
